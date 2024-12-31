@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countdown Quiz Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Stage 1: Bomb with tied up woman (HTML questions)-->
+    <section id="stage1" class="stage">
+      <div id="bomb">
+        <img src="images/bomb.png" alt="Bomb" id="bombImage" />
+        <div id="fuse"></div>
+      </div>
+      <div id="woman">
+        <img src="images/woman-tied.png" alt="Woman Tied" />
+      </div>
+      <p id="stage1Text">Answer the questions to stop the bomb!</p>
+      <div id="timer1">Time Remaining: <span id="time1">10</span> seconds</div>
+      <div id="quiz1">
+        <p id="quetion1">What does HTML stand for?</p>
+        <ul id="options1">
+          <li>
+            <button onclick="checkAnswer('a')">
+              A) Hypertext Markup Language
+            </button>
+          </li>
+          <li>
+            <button onclick="checkAnswer('b')">
+              B) HighText Machine Language
+            </button>
+          </li>
+          <li>
+            <button onclick="checkAnswer('c')">
+              C) HyperLinks and Text Markup Language
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="quiz2">
+        <p id="question2">
+          What is the correct HTML tag for the largest heading?
+        </p>
+        <ul id="options2">
+          <li><button onclick="checkAnswer2('a')">A) h1</button></li>
+          <li><button onclick="checkAnswer2('b')">B) head</button></li>
+          <li><button onclick="checkAnswer2('c')">C) heading</button></li>
+        </ul>
+      </div>
+      <div id="quiz3">
+        <p id="question3">
+          Which HTML tag is used to define an internal style sheet?
+        </p>
+        <ul id="options3">
+          <li><button onclick="checkAnswer3('a')">A) style</button></li>
+          <li><button onclick="checkAnswer3('b')">B) css</button></li>
+          <li><button onclick="checkAnswer3('c')">C) script</button></li>
+        </ul>
+      </div>
+      <div id="quiz4">
+        <p id="question4">
+          Which attribute is used to define the color of text in HTML?
+        </p>
+        <ul id="options4">
+          <li><button onclick="checkAnswer4('a')">A) color</button></li>
+          <li><button onclick="checkAnswer4('b')">B) style</button></li>
+          <li><button onclick="checkAnswer4('c')">C) textcolor</button></li>
+        </ul>
+      </div>
+      <div id="quiz5">
+        <p id="question5">
+          What is the correct HTML tag for inserting a line break?
+        </p>
+        <ul id="options5">
+          <li><button onclick="checkAnswer5('a')">A) break</button></li>
+          <li><button onclick="checkAnswer5('b')">B) br</button></li>
+          <li><button onclick="checkAnswer5('c')">C) lb</button></li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
