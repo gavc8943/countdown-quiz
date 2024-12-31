@@ -79,5 +79,135 @@
         </ul>
       </div>
     </section>
+
+    <!--Stage 2: Train Tracks (CSS Questions)-->
+    <section id="stage2" class="stage" style="display: none">
+      <div id="train">
+        <img src="images/train.png" alt="Train" id="trainImage" />
+      </div>
+      <div id="woman2">
+        <img src="images/woman-tied2.png" alt="Woman Tied to Tracks" />
+      </div>
+      <p id="stage2Text">Answer the questions to stop the train!</p>
+      <div id="timer2">Time Remaining: <span id="time2">15</span> seconds</div>
+      <div id="quiz6">
+        <p id="question6">What does CSS stand for?</p>
+        <ul id="options6">
+          <li>
+            <button onclick="checkAnswer6('a')">
+              A) Cascading Style Sheets
+            </button>
+          </li>
+          <li>
+            <button onclick="checkAnswer6('b')">
+              B) Creative Style Sheets
+            </button>
+          </li>
+          <li>
+            <button onclick="checkAnswer6('c')">
+              C) Computer Style Sheets
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="quiz7">
+        <p id="question7">
+          Which property is used to change the background color in CSS?
+        </p>
+        <ul id="options7">
+          <li>
+            <button onclick="checkAnswer7('a')">A) background-color</button>
+          </li>
+          <li><button onclick="checkAnswer7('b')">B) color</button></li>
+          <li><button onclick="checkAnswer7('c')">C) bg-color</button></li>
+        </ul>
+      </div>
+      <div id="quiz8">
+        <p id="question8">
+          Which property is used to change the font size in CSS?
+        </p>
+        <ul id="options8">
+          <li><button onclick="checkAnswer8('a')">A) font-size</button></li>
+          <li><button onclick="checkAnswer8('b')">B) text-size</button></li>
+          <li><button onclick="checkAnswer8('c')">C) size</button></li>
+        </ul>
+      </div>
+      <div id="quiz9">
+        <p id="question9">Which CSS property controls the text color?</p>
+        <ul id="options9">
+          <li><button onclick="checkAnswer9('a')">A) color</button></li>
+          <li><button onclick="checkAnswer9('b')">B) text-color</button></li>
+          <li><button onclick="checkAnswer9('c')">C) text-style</button></li>
+        </ul>
+      </div>
+      <div id="quiz10">
+        <p id="question10">How do you center text in CSS?</p>
+        <ul id="options10">
+          <li>
+            <button onclick="checkAnswer10('a')">A) text-align: center;</button>
+          </li>
+          <li>
+            <button onclick="checkAnswer10('b')">B) align: center;</button>
+          </li>
+          <li>
+            <button onclick="checkAnswer10('c')">C) center-text: true;</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Stage 3: Rising Water (JavaScript Questions) -->
+    <section id="stage3" class="stage" style="display: none;">
+        <div id="pool">
+            <img src="images/pool.png" alt="Pool" id="poolImage">
+        </div>
+        <div id="woman3">
+            <img src="images/woman-tied3.png" alt="Woman in Pool">
+        </div>
+        <p id="stage3Text">Answer the questions to stop the rising water!</p>
+        <div id="timer3">Time Remaining: <span id="time3">20</span> seconds</div>
+        <div id="quiz11">
+            <p id="question11">What does JavaScript do?</p>
+            <ul id="options11">
+                <li><button onclick="checkAnswer11('a')">A) Makes webpages interactive</button></li>
+                <li><button onclick="checkAnswer11('b')">B) Styles the layout of webpages</button></li>
+                <li><button onclick="checkAnswer11('c')">C) Defines the structure of webpages</button></li>
+            </ul>
+        </div>
+        <div id="quiz12">
+            <p id="question12">Which of the following is a JavaScript data type?</p>
+            <ul id="options12">
+                <li><button onclick="checkAnswer12('a')">A) String</button></li>
+                <li><button onclick="checkAnswer12('b')">B) Color</button></li>
+                <li><button onclick="checkAnswer12('c')">C) Integer</button></li>
+            </ul>
+        </div>
+        <div id="quiz13">
+            <p id="question13">How do you create a function in JavaScript?</p>
+            <ul id="options13">
+                <li><button onclick="checkAnswer13('a')">A) function myFunction()</button></li>
+                <li><button onclick="checkAnswer13('b')">B) function = myFunction()</button></li>
+                <li><button onclick="checkAnswer13('c')">C) def myFunction()</button></li>
+            </ul>
+        </div>
+        <div id="quiz14">
+            <p id="question14">What is the correct syntax to refer to an external script file in HTML?</p>
+            <ul id="options14">
+                <li><button onclick="checkAnswer14('a')">A) <script src="script.js"></script></button></li>
+                <li><button onclick="checkAnswer14('b')">B) <script file="script.js"></script></li>
+                <li><button onclick="checkAnswer14('c')">C) <link href="script.js"></link></li>
+            </ul>
+        </div>
+        <div id="quiz15">
+            <p id="question15">How do you write an array in JavaScript?</p>
+            <ul id="options15">
+                <li><button onclick="checkAnswer15('a')">A) var arr = [1, 2, 3];</button></li>
+                <li><button onclick="checkAnswer15('b')">B) var arr = (1, 2, 3);</button></li>
+                <li><button onclick="checkAnswer15('c')">C) var arr = {1, 2, 3};</button></li>
+            </ul>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
